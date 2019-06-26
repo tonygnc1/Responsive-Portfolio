@@ -1,112 +1,48 @@
-<!-- Bootstrap-Powered HTML -->
-
-<!-- Students:
-  1. Where is the HTML document drawing its styles from?
-
-  2. How does our browser know which element to style in which way? (ex: button face or background banner)
--->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Coding Boot Camp!</title <!-- We link our html to the Bootstrap CDN -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+
+  <header id="masthead">
     <div class="container">
-        <!-- Setting up our navbar backgound color and size -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-
-            <!-- My name in the navbar Stays on this side when collapsed on a small display-->
-            <p class="h3"
-                style="width:300px; height: 75px; text-align: center; padding: 20px; color: white; text-anchor: middle; background-color: #4aaaa5">
-                About Me</p>
-            <br /><br />
-
-            <div class="col-lg-3"></div>
-
-            <!-- Collapses the menue items to a hamburger on a smaller display -->
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> -->
-
-                <!-- Moves the menue to the far left -->
-                <ul class="navbar-nav ml-auto">
-
-                    <!-- Our menue links -->
-                    <ul class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </ul>
-                    <ul class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </ul>
-                    <ul class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </ul>
-                </ul>
-        </nav>
-
-        <div id="hr"></div>
-
-        <!-- <div class="body"> -->
-        <div class="row"></div>
-        <div class="col-lg-12">
-            <!-- <div class="img";> -->
-            <div class="img">
-                <div class="p">
-                    <p> <img src="images/placeimg_250_200_people.jpg" class="About" alt="Placeholder1">
-                        <!-- <img src="images/placeimg_250_200_people.jpg" alt="Placeholder1"> -->
-
-                        diagonal layout based on Lorem IpsumLorem ipsum is a pseudo-Latin text used in web design,
-                        typography, layout, and printing in place of English to emphasise design elements over content.
-                        It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to
-                        outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem
-                        ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words
-                        and letters have been changed by addition or removal, so to deliberately render its content
-                        nonsensical; it's not genuine, correct, or comprehensible Latin anymore. While lorem ipsum's
-                        still resembles classical Latin, it actually has no meaning whatsoever. As Cicero's text doesn't
-                        contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to
-                        mimic the typographic appearence of European languages, as are digraphs not to be found in the
-                        original.
-
-                        In a professional context it often happens that private or corporate clients corder a
-                        publication to be made and presented with the actual content still not being ready. Think of a
-                        news blog that's filled with content hourly on the day of going live. However, reviewers tend to
-                        be distracted by comprehensible content, say, a random text copied from a newspaper or the
-                        internet. The are likely to focus on the text, disregarding the layout and its elements.
-                        Besides, random text risks to be unintendedly humorous or offensive, an unacceptable risk in
-                        corporate environments. Lorem ipsum and its many variants have been employed since the early
-                        1960ies, and quite likely since the sixteenth century.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-8">
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus nam ab sit aspernatur
-                possimus nisi voluptatibus! Iste ea nesciunt veniam molestiae quo, hic quaerat a facere sit dolore
-                fugit?;
-            </p>
-        </div>
-        <div class="col-lg-4"></div>
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <div class="row">
-        <div class="col-12">
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-            <div class="footer-about">
-                <p>Copyright</p>
-            </div>
-        </div>
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+
+      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+
+      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
     </div>
+  </footer>
 </body>
 
 </html>
