@@ -216,21 +216,29 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (min-width:640) {
-  .container {
-    width: 100%;
-  }
-    
+@media only screen and (max-width:980px) {
+ #logo {
+  margin: 0px 0px 0px 125px;
+  width: 50%
 }
-@media screen and (min-width:768) {
-  .container {
+}
+@media only screen and (max-width:768px) {
+  body {
     width: 100%;
+    
   }
  
 }
 
-@media screen and (min-width:980) {
-  .container {
+@media only screen and (max-width:640px) {
+ body {
     width: 100%;
+    
+  }
+
+  
+nav {
+      float: left;
+      margin: 0px 0px 0px 75px;
   }
 }
