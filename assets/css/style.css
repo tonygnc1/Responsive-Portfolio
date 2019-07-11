@@ -135,13 +135,12 @@ h3, h2 {
 }
 
 /* portfolio page */
-
 .work {
   position: relative;
   float: left;
   width: 274px;
   margin: 20px 0 25px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .work:nth-child(even) {
@@ -216,6 +215,9 @@ input[type=submit] {
   border: 0 none;
 }
 
+img {
+  max-height: 205px;
+}
 @media only screen and (max-width:980px) {
  #logo {
   margin: 0px 0px 0px 125px;
